@@ -31,7 +31,7 @@ const crearNuevaLinea = (nombre,email) => {
   return linea;
 }
 
-const table = document.querySelector('[data-table]');
+const table = document.querySelector("[data-table]");
 
 const http = new XMLHttpRequest();
 
