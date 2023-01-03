@@ -4,6 +4,21 @@
       "nombre": "Jossué Sanabria",
       "email": "jossuesanabriasolano@outlook.com",
       "id": 1
+    },
+    {
+      "nombre": "Bryan Arias",
+      "email": "bjarias.jimenez@gmail.com",
+      "id": "3425f4d9-3526-4d60-9e6f-3f3860db35d0"
+    },
+    {
+      "nombre": "Bryan Arias",
+      "email": "bjarias.jimenez@gmail.com",
+      "id": "4126db99-8eb1-4469-a73e-dc61dc692901"
+    },
+    {
+      "nombre": "Flor Garcia Solano",
+      "email": "fgarcia@yahoo.es",
+      "id": "108d60d4-fb1a-433c-804d-91f508985565"
     }
   ]
 }
