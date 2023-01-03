@@ -41,7 +41,7 @@ const table = document.querySelector("[data-table]");
 //Delete -- DELETE
 
 const listaClientes = () => {
-  return fetch("http://localhost:3000/perfil")
+  return fetch("http://localhost:3000/perfil");
 };
 
 listaClientes ()
