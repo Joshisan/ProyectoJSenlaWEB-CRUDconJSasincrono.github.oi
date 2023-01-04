@@ -12,7 +12,9 @@ const crearNuevaLinea = (nombre, email, id) => {
     <td>
       <ul class="table__button-control">
         <li>
-          <a href="../screens/editar_cliente.html?${id}" class="simple-button simple-button--edit">
+          <a href="../screens/editar_cliente.html?${id}" 
+          class="simple-button simple-button--edit"
+          >
             Editar
           </a>
         </li>
@@ -24,16 +26,17 @@ const crearNuevaLinea = (nombre, email, id) => {
       </ul>
     </td>
   `;
+  
   linea.innerHTML = contenido;
   const btn = linea.querySelector("button");
   btn.addEventListener("click", () => {
     const id = btn.id;
     clientServices
-    .eliminarCliente(id)
-    .then(respuesta =>{
-      console.log(respuesta);
-    })
-    .catch(err => alert("Ocurrió un error"));
+      .eliminarCliente(id)
+      .then(respuesta =>{
+        console.log(respuesta);
+      })
+      .catch(err => alert("Ocurrió un error"));
   });
   return linea;
 };
