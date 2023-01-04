@@ -29,6 +29,6 @@ formulario.addEventListener('submit', (evento) => {
     const nombre = document.querySelector("[data-nombre]").value;
     const email = document.querySelector("[data-email]").value;
     clientServices.actualizarCliente(nombre, email, id).then(()=>{
-        window.location.href = "/screen/edicion_concluida.html";
+        window.location.href = "/screens/edicion_concluida.html";
     });
 });

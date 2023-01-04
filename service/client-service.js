@@ -23,7 +23,7 @@ const crearCliente = (nombre, email) => {
   });
 };
 
-const eliminarCliente = (id) =>{
+const eliminarCliente = (id) => {
   return fetch(`http://localhost:3000/perfil/${id}`, {
     method: "DELETE",
   });
@@ -41,7 +41,7 @@ const actualizarCliente = (nombre, email, id) => {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({nombre, email})
+    body: JSON.stringify({nombre, email}),
   })
   .then((respuesta) => respuesta)
   .catch((err) => console.log(err));
